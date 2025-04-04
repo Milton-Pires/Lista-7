@@ -8,9 +8,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(192, 101, 202));
     text-align: center;
     padding: 30px 30px 30px 30px;
+    border-bottom: solid 1px black;
 }
 main{
     gap: 80px;
@@ -26,8 +27,9 @@ main{
     margin-top: 28px;
     flex: 1;
     justify-content: space-between;
-    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(161, 22, 176));
-
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(192, 101, 202));
+    margin-left: 28px;
+    margin-right: 28px;
 }
 .container{
     display: flex;
@@ -53,4 +55,7 @@ a{
     text-decoration: none;
     font-size: 16px;
     color: white;
+}
+a:hover{
+    text-decoration: underline;
 }
