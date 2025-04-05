@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #bdfa99;
+    background-color: antiquewhite;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    color: #bdfa99;
+    color: antiquewhite;
     background-color: black;
     text-align: center;
     padding: 30px 30px 30px 30px;
@@ -24,6 +24,10 @@ main{
     gap: 80px;
     display: flex;
 }
+img{
+    width: 200px;
+    height: 200px;
+}
 .card{
     display: flex;
     flex-direction: column;
@@ -34,7 +38,7 @@ main{
     margin-top: 28px;
     flex: 1;
     justify-content: space-between;
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgb(#bdfa99));
+    background-color: rgb(243, 211, 169);
     margin-left: 28px;
     margin-right: 28px;
     box-shadow: 1px 1px rgba(0, 0, 0, 0.158);
@@ -42,11 +46,12 @@ main{
 .container{
     display: flex;
     justify-content: center;
-    
+    flex-wrap: wrap;    
 }
 .card:hover{
     padding: 40px;
     border-radius: 6px;
+    transition: ;
 }
 p{
     font-size: 12px;
